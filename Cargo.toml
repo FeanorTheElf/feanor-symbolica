@@ -1,0 +1,14 @@
+[package]
+name = "feanor-symbolica"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["rlib"]
+bench = true
+
+[dependencies]
+feanor-math = { version = "2.1.9", features = ["unstable-enable", "generic_tests"] }
+rand = "0.8.5"
+rug = "=1.23.0"
+symbolica = "0.8.0"
