@@ -1,0 +1,1 @@
+An experiment in bridging the two Rust-CAS [feanor-math](https://crates.io/crates/feanor-math) and [symbolica](https://crates.io/crates/symbolica).
